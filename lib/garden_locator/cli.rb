@@ -4,17 +4,13 @@ class GardenLocator::CLI
     def call
         puts "Welcome to your Botanical and Arboretum Locator!"
         puts "Enter your state:"
-        welcome_garden
+        get_state
         menu
         goodbye
     end
 
-    def welcome_garden
-        #<<~HEREDOC
-        puts "2. List of states"
-        puts "3. About Botanical Gardens"
-        puts "4. Exit"
-        #HEREDOC
+    def get_state
+        @states = GardenLocator::State.all
     end 
 
     def menu

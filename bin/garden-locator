@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require './lib/garden_locator'
+
+GardenLocator::CLI.new.call
+
+
+
+

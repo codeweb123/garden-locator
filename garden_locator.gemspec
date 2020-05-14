@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["codeweb123"]
   spec.email         = ["jiyonj@hotmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "http://www.dog.com"
+  spec.summary       = %q{Florida Botanical Garden Locator.}
+  spec.description   = %q{Florida Garden overview.}
+  spec.homepage      = "http://www.flatiron.com"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
@@ -33,4 +33,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "pry"
   spec.add_dependency "nokogiri"
+  spec.add_dependency "require_all"
 end

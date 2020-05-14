@@ -1,8 +1,14 @@
 #!/usr/bin/env ruby
-
 require './lib/garden_locator'
+require 'open-uri'
 
-GardenLocator::CLI.new.call
+app = GardenLocator::CLI.new
+#Module- the CLI class belongs to the GardenLocator
+#.new class method that triggers an instance lifecycle
+#executable file
+#.call  
+app.run
+ 
 
 
 
